@@ -1,14 +1,20 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const plugin = require('tailwindcss/plugin')
-const _ = require('lodash')
+const plugin = require("tailwindcss/plugin");
+const _ = require("lodash");
 
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
+    ripple: theme => ({
+      colors: theme('colors'),
+      modifierTransition: 'background 0.2s',
+      activeTransition: 'background 0.1s',
+      
+  }),
     rotate: {
-      '1/4': '90deg',
-      '1/2': '180deg',
-      '3/4': '270deg',
+      "1/4": "90deg",
+      "1/2": "180deg",
+      "3/4": "270deg",
     },
     extend: {
       fontFamily: {
@@ -40,8 +46,8 @@ module.exports = {
         "light-grayish-yellow": "rgb(236,235,225)",
         "grayish-blue": "rgb(59, 88, 111)",
         logo: {
-          urban: '#00d9d2',
-          App: '#5a5a5a',
+          urban: "#00d9d2",
+          App: "#5a5a5a",
         },
         primary: {
           50: "#e5f7f7",
@@ -119,50 +125,47 @@ module.exports = {
     },
   },
   variants: {
-    customPlugin: ['responsive', 'hover'],
+    customPlugin: ["responsive", "hover"],
     borderColor: ["responsive", "hover", "focus", "focus-within"],
     extend: {
       opacity: ["disabled"],
       cursor: ["disabled"],
     },
-
   },
   plugins: [
+    require('tailwindcss-ripple')(),
     plugin(function ({ addComponents, theme }) {
-      const screens = theme('screens', {})
+      const screens = theme("screens", {});
 
-      const mediaQueries = _.map(screens, width => {
+      const mediaQueries = _.map(screens, (width) => {
         return {
           [`@media (min-width: ${width})`]: {
-            '.container': {
-              'max-width': width,
+            ".container": {
+              "max-width": width,
             },
           },
-        }
-      })
+        };
+      });
 
-      addComponents([
-        { '.container': { width: '100%' } },
-        ...mediaQueries,
-      ])
+      addComponents([{ ".container": { width: "100%" } }, ...mediaQueries]);
     }),
     plugin(function ({ addUtilities, theme, e }) {
-      const rotateUtilities = _.map(theme('rotate'), (value, key) => {
+      const rotateUtilities = _.map(theme("rotate"), (value, key) => {
         return {
           [`.${e(`rotate-${key}`)}`]: {
-            transform: `rotate(${value})`
-          }
-        }
-      })
+            transform: `rotate(${value})`,
+          },
+        };
+      });
 
-      addUtilities(rotateUtilities)
+      addUtilities(rotateUtilities);
     }),
     plugin(function ({ addBase, theme }) {
       addBase({
-        'h1': { fontSize: theme('fontSize.2xl') },
-        'h2': { fontSize: theme('fontSize.xl') },
-        'h3': { fontSize: theme('fontSize.lg') },
-      })
+        h1: { fontSize: theme("fontSize.2xl") },
+        h2: { fontSize: theme("fontSize.xl") },
+        h3: { fontSize: theme("fontSize.lg") },
+      });
     }),
     plugin(function ({ addComponents }) {
       const buttons = {
