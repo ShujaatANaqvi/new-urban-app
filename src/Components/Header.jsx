@@ -28,10 +28,15 @@ const HeaderComponent = () => {
           </div>
           <div>
             <button class="py-2 px-4 rounded-full focus:outline-none ripple-bg-logo-urban  ">
-              Hover 
+              Hover
             </button>
-
-            <button className="btn">sign out</button>
+            <button
+              class="text-orange-500 bg-transparent border border-solid border-orange-500 hover:bg-orange-500 hover:text-white active:bg-orange-600 font-bold uppercase text-xs px-4 py-2 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+              type="button"
+            >
+              Small
+            </button>
+            <button className="">sign out</button>
           </div>
         </div>
       </div>

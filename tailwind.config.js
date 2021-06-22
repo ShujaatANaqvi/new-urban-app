@@ -8,8 +8,8 @@ module.exports = {
     ripple: theme => ({
       colors: theme('colors'),
       modifierTransition: 'background 0.2s',
-      activeTransition: 'background 0.1s',
-      
+      activeTransition: 'background 0.3s',
+
   }),
     rotate: {
       "1/4": "90deg",
