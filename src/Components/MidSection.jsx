@@ -106,9 +106,8 @@ const MidSection = () => {
           </div>
         </div>
       </div>
-      <div className="text-center  text-gray-600 my-12">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-        explicabo corporis est suscipit ab beatae!
+      <div className="text-center  text-gray-400 my-12">
+        Pick a service below that you're looking for & get connected with the nearest service provider
       </div>
     </>
   );

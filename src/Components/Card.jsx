@@ -3,140 +3,101 @@ import React from "react";
 export default function Card() {
   return (
     <>
-      <div className="container mx-8 grid gap-4 lg:grid-cols-6 md:grid-cols-4">
-        <div className=' border-2 border-separate'>
+    <div className="flex mx-20 my-10 justify-center items-center">
+
+      <div className=" container  grid gap-4 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-1">
+      
+      
+        <section className='shadow-2xl'>
           <img
-            src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+            src="https://cdn-uploads-singapore.starofservice.com/uploads/pj/thumbs-medium/starofservice_0dfb0e8b01d5d11a349389e97978152f76984generalplumbingwork.jpg"
             className="rounded-lg shadow-xl mb-4"
             alt=""
           />
           <div className="text-center">
-            <h5 className="text-xl font-semibold mb-2">Card title</h5>
-            <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              sequi tenetur, voluptatibus harum consequuntur alias quaerat
-              excepturi temporibus nisi commodi, ex, ratione quae soluta! Saepe
-              alias dolores dolorem assumenda totam?
-            </p>
-            <button
-              className="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-              type="button"
-            >
-              Button
-            </button>
+            <h5 className="text-xl font-semibold mb-2">Plumber</h5>
           </div>
-        </div>
-        <div>
+        </section>
+      
+        <section className='shadow-2xl'>
           <img
-            src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+            src="https://cdn-uploads-singapore.starofservice.com/uploads/pj/thumbs-medium/starofservice_0dfb0e8b01d5d11a349389e97978152f76984generalplumbingwork.jpg"
             className="rounded-lg shadow-xl mb-4"
             alt=""
           />
           <div className="text-center">
-            <h5 className="text-xl font-semibold mb-2">Card title</h5>
-            <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              sequi tenetur, voluptatibus harum consequuntur alias quaerat
-              excepturi temporibus nisi commodi, ex, ratione quae soluta! Saepe
-              alias dolores dolorem assumenda totam?
-            </p>
-            <button
-              className="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-              type="button"
-            >
-              Button
-            </button>
+            <h5 className="text-xl font-semibold mb-2">Plumber</h5>
           </div>
-        </div>
-        <div>
+        </section>
+      
+        <section className='shadow-2xl'>
           <img
-            src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+            src="https://cdn-uploads-singapore.starofservice.com/uploads/pj/thumbs-medium/starofservice_0dfb0e8b01d5d11a349389e97978152f76984generalplumbingwork.jpg"
             className="rounded-lg shadow-xl mb-4"
             alt=""
           />
           <div className="text-center">
-            <h5 className="text-xl font-semibold mb-2">Card title</h5>
-            <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              sequi tenetur, voluptatibus harum consequuntur alias quaerat
-              excepturi temporibus nisi commodi, ex, ratione quae soluta! Saepe
-              alias dolores dolorem assumenda totam?
-            </p>
-            <button
-              className="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-              type="button"
-            >
-              Button
-            </button>
+            <h5 className="text-xl font-semibold mb-2">Plumber</h5>
           </div>
-        </div>
-        <div>
+        </section>
+      
+        <section className='shadow-2xl'>
           <img
-            src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+            src="https://cdn-uploads-singapore.starofservice.com/uploads/pj/thumbs-medium/starofservice_0dfb0e8b01d5d11a349389e97978152f76984generalplumbingwork.jpg"
             className="rounded-lg shadow-xl mb-4"
             alt=""
           />
           <div className="text-center">
-            <h5 className="text-xl font-semibold mb-2">Card title</h5>
-            <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              sequi tenetur, voluptatibus harum consequuntur alias quaerat
-              excepturi temporibus nisi commodi, ex, ratione quae soluta! Saepe
-              alias dolores dolorem assumenda totam?
-            </p>
-            <button
-              className="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-              type="button"
-            >
-              Button
-            </button>
+            <h5 className="text-xl font-semibold mb-2">Plumber</h5>
           </div>
-        </div>
-        <div>
+        </section>
+      
+        <section className='shadow-2xl'>
           <img
-            src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+            src="https://cdn-uploads-singapore.starofservice.com/uploads/pj/thumbs-medium/starofservice_0dfb0e8b01d5d11a349389e97978152f76984generalplumbingwork.jpg"
             className="rounded-lg shadow-xl mb-4"
             alt=""
           />
           <div className="text-center">
-            <h5 className="text-xl font-semibold mb-2">Card title</h5>
-            <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              sequi tenetur, voluptatibus harum consequuntur alias quaerat
-              excepturi temporibus nisi commodi, ex, ratione quae soluta! Saepe
-              alias dolores dolorem assumenda totam?
-            </p>
-            <button
-              className="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-              type="button"
-            >
-              Button
-            </button>
+            <h5 className="text-xl font-semibold mb-2">Plumber</h5>
           </div>
-        </div>
-        <div>
+        </section>
+        <section className='shadow-2xl'>
           <img
-            src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+            src="https://cdn-uploads-singapore.starofservice.com/uploads/pj/thumbs-medium/starofservice_0dfb0e8b01d5d11a349389e97978152f76984generalplumbingwork.jpg"
             className="rounded-lg shadow-xl mb-4"
             alt=""
           />
           <div className="text-center">
-            <h5 className="text-xl font-semibold mb-2">Card title</h5>
-            <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              sequi tenetur, voluptatibus harum consequuntur alias quaerat
-              excepturi temporibus nisi commodi, ex, ratione quae soluta! Saepe
-              alias dolores dolorem assumenda totam?
-            </p>
-            <button
-              className="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-              type="button"
-            >
-              Button
-            </button>
+            <h5 className="text-xl font-semibold mb-2">Plumber</h5>
           </div>
-        </div>
+        </section>
+    
       </div>
+    </div>
+   
+    <div class="flex flex-wrap -mx-1 overflow-hidden">
+
+     <div class="my-1 px-1 w-full overflow-hidden">
+      <h2 className='uppercase text-gray-800 text-center text-2xl'> Post a add free</h2>
+    </div>
+
+       <div class="my-1 px-1 w-full flex justify-center overflow-hidden">
+       <div className="inline-block mr-2 mt-2">
+            <button
+              type="button"
+              className="focus:outline-none text-white text-md py-2.5 px-5 rounded-full w-44 bg-logo-urban hover:opacity-90"
+            >
+              Create free ad
+            </button>
+          </div>
+     </div>
+
+     <div class="my-1 px-1 w-full text-center overflow-hidden">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, praesentium.
+       </div>
+
+     </div>
     </>
   );
 }
