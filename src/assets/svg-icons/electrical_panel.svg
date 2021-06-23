@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.168" height="35" viewBox="0 0 29.168 35">
+    <defs>
+        <style>
+            .cls-2{fill:#434a54}
+        </style>
+    </defs>
+    <g id="electrical-panel" transform="translate(-42.658)">
+        <path id="Path_620" fill="#656d78" d="M71.095 0H43.388a.729.729 0 0 0-.73.729V34.27a.73.73 0 0 0 .73.73h27.707a.73.73 0 0 0 .731-.73V.729A.73.73 0 0 0 71.095 0z" transform="translate(0)"/>
+        <g id="Group_434" transform="translate(68.179 5.104)">
+            <path id="Path_621" d="M416.708 74.66a.729.729 0 0 0-.728.729v4.375a.729.729 0 0 0 1.459 0v-4.375a.73.73 0 0 0-.731-.729z" class="cls-2" transform="translate(-415.98 -74.66)"/>
+            <path id="Path_622" d="M416.708 341.314a.73.73 0 0 0-.728.73v4.375a.729.729 0 0 0 1.459 0v-4.375a.73.73 0 0 0-.731-.73z" class="cls-2" transform="translate(-415.98 -323.085)"/>
+        </g>
+        <path id="Rectangle_2568" fill="#ed5564" d="M0 0H23.333V29.167H0z" transform="translate(45.575 2.916)"/>
+        <path id="Path_623" fill="#ffce54" d="M154.393 141.455l-7.29-13.093a.729.729 0 0 0-1.274 0l-7.307 13.124a.73.73 0 0 0 .637 1.084h14.615a.728.728 0 0 0 .728-.73.74.74 0 0 0-.109-.385z" transform="translate(-89.223 -119.238)"/>
+        <path id="Path_624" d="M226.174 209.945a.729.729 0 0 1-.652-1.055l.931-1.862h-1.737a.73.73 0 0 1-.652-1.056l1.458-2.917a.729.729 0 1 1 1.3.652l-.93 1.861h1.737a.729.729 0 0 1 .652 1.055l-1.459 2.917a.728.728 0 0 1-.648.405z" class="cls-2" transform="translate(-168.933 -188.799)"/>
+        <path id="Path_625" fill="#da4453" d="M181.59 385.443h-10.207a.729.729 0 1 1 0-1.458h10.207a.729.729 0 1 1 0 1.458z" transform="translate(-119.245 -357.735)"/>
+    </g>
+</svg>
